@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cart</title>
+<link rel="stylesheet" type="text/css" id="applicationStylesheet" href="cart.css"/>
+<script id="applicationScript" type="text/javascript" src="cart.js"></script>
+</head>
+<body>
+<div id="cart">
+	<div id="summaryCost" class="summaryCost">
+		<div id="Total">
+			<span>Total</span>
+		</div>
+		<div id="totalCost">
+			<span>totalCost</span>
+		</div>
+		<svg class="Rectangle_196">
+			<rect id="Rectangle_196" rx="0" ry="0" x="0" y="0" width="360" height="31">
+			</rect>
+		</svg>
+	</div>
+	<div onclick="application.goToTargetView(event)" id="placeOrder" class="placeOrder">
+		<svg class="Rectangle_129">
+			<rect id="Rectangle_129" rx="0" ry="0" x="0" y="0" width="375" height="90">
+			</rect>
+		</svg>
+		<div id="PLACE_ORDER">
+			<span>PLACE ORDER</span>
+		</div>
+	</div>
+	<div id="myCart" class="myCart">
+		<svg class="Rectangle_64">
+			<rect id="Rectangle_64" rx="0" ry="0" x="0" y="0" width="375" height="80">
+			</rect>
+		</svg>
+		<div id="Group_16">
+			<div id="My_Cart">
+				<span>My Cart</span>
+			</div>
+		</div>
+		<div onclick="application.goToTargetView(event)" id="Text_dw">
+			<span>←</span>
+		</div>
+	</div>
+	<div id="cartItem" class="cartItem">
+		<svg class="Rectangle_195">
+			<rect id="Rectangle_195" rx="0" ry="0" x="0" y="0" width="360" height="128">
+			</rect>
+		</svg>
+		<img id="sapc-white" src="img/sapc-white.png" srcset="img/sapc-white.png 1x, img/sapc-white@2x.png 2x">
+			
+		<div id="itemName_d">
+			<span>itemName</span>
+		</div>
+		<div id="itemPrice_d">
+			<span>itemPrice</span>
+		</div>
+		<div id="removeItem" class="removeItem">
+			<svg class="Path_42" viewBox="329.075 3845.388 30.007 30.007">
+				<path id="Path_42" d="M 329.0752563476562 3845.3876953125 L 359.0823364257812 3875.39453125">
+				</path>
+			</svg>
+			<svg class="Path_43" viewBox="329.075 3845.388 30.007 30.007">
+				<path id="Path_43" d="M 359.082275390625 3845.3876953125 L 329.0751953125 3875.39453125">
+				</path>
+			</svg>
+		</div>
+	</div>
+</div>
+</body>
+</html>

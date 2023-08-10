@@ -1,0 +1,299 @@
+.mediaViewInfo {
+	--web-view-name: cart;
+	--web-view-id: cart;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: cart;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#cart {
+	position: absolute;
+	width: 375px;
+	height: 774px;
+	background-color: rgba(248,248,248,1);
+	overflow: hidden;
+	--web-view-name: cart;
+	--web-view-id: cart;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#summaryCost {
+	position: absolute;
+	width: 360px;
+	height: 31px;
+	left: 8px;
+	top: 635px;
+	overflow: visible;
+}
+#Total {
+	left: 10px;
+	top: 2px;
+	position: absolute;
+	overflow: visible;
+	width: 48px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(36,36,36,1);
+}
+#totalCost {
+	left: 244px;
+	top: 2px;
+	position: absolute;
+	overflow: visible;
+	width: 87px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(36,36,36,1);
+}
+#Rectangle_196 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_196 {
+	position: absolute;
+	overflow: visible;
+	width: 360px;
+	height: 31px;
+	left: 0px;
+	top: 0px;
+}
+#placeOrder {
+	position: absolute;
+	width: 375px;
+	height: 90px;
+	left: 0px;
+	top: 684px;
+	overflow: visible;
+	transition: all 0.30000001192092896s ease-out;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: orderConfirmation.html;
+	cursor: pointer;
+}
+#Rectangle_129 {
+	fill: rgba(209,4,34,1);
+}
+.Rectangle_129 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 393px;
+	height: 108px;
+	left: 0px;
+	top: 0px;
+}
+#PLACE_ORDER {
+	left: 141px;
+	top: 34px;
+	position: absolute;
+	overflow: visible;
+	width: 94px;
+	white-space: nowrap;
+	line-height: 18px;
+	margin-top: -2px;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(255,255,255,1);
+	text-transform: uppercase;
+}
+#myCart {
+	position: absolute;
+	width: 375px;
+	height: 80px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_64 {
+	fill: rgba(206,43,43,1);
+}
+.Rectangle_64 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.031));
+	position: absolute;
+	overflow: visible;
+	width: 393px;
+	height: 98px;
+	left: 0px;
+	top: 0px;
+}
+#Group_16 {
+	position: absolute;
+	width: 66px;
+	height: 26px;
+	left: 155px;
+	top: 26px;
+	overflow: visible;
+}
+#My_Cart {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 67px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.12px;
+}
+#Text_dw {
+	left: 16px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 39px;
+	white-space: nowrap;
+	transition: all 0.30000001192092896s ease-out;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 45px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.12px;
+}
+#cartItem {
+	position: absolute;
+	width: 360px;
+	height: 128px;
+	left: 8px;
+	top: 88px;
+	overflow: visible;
+}
+#Rectangle_195 {
+	fill: rgba(0,0,0,0.012);
+}
+.Rectangle_195 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 378px;
+	height: 146px;
+	left: 0px;
+	top: 0px;
+}
+#sapc-white {
+	filter: drop-shadow(0px 6px 12px rgba(0, 0, 0, 0.2));
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 10px;
+	top: 10px;
+	overflow: visible;
+}
+#itemName_d {
+	left: 128px;
+	top: 16px;
+	position: absolute;
+	overflow: visible;
+	width: 67px;
+	white-space: nowrap;
+	line-height: 18px;
+	margin-top: -3px;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	color: rgba(34,34,34,1);
+}
+#itemPrice_d {
+	left: 128px;
+	top: 56px;
+	position: absolute;
+	overflow: visible;
+	width: 79px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -2px;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(34,34,34,1);
+}
+#removeItem {
+	position: absolute;
+	width: 30.007px;
+	height: 30.007px;
+	left: 321.993px;
+	top: 41.993px;
+	overflow: visible;
+}
+#Path_42 {
+	fill: transparent;
+	stroke: rgba(252,33,62,1);
+	stroke-width: 1.7999999523162842px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_42 {
+	overflow: visible;
+	position: absolute;
+	width: 32.553px;
+	height: 32.553px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_43 {
+	fill: transparent;
+	stroke: rgba(252,33,62,1);
+	stroke-width: 1.7999999523162842px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_43 {
+	overflow: visible;
+	position: absolute;
+	width: 32.552px;
+	height: 32.553px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}

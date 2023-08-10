@@ -1,0 +1,428 @@
+.mediaViewInfo {
+	--web-view-name: home;
+	--web-view-id: home;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: home;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#home {
+	position: absolute;
+	width: 375px;
+	height: 774px;
+	background-color: rgba(241,241,241,1);
+	overflow: hidden;
+	--web-view-name: home;
+	--web-view-id: home;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#itemSet {
+	position: absolute;
+	width: 375px;
+	height: 703px;
+	left: 0px;
+	top: 80px;
+	overflow: visible;
+	transition: all 0.30000001192092896s ease-out;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: productItem.html;
+	cursor: pointer;
+}
+#itemTee {
+	position: absolute;
+	width: 375px;
+	height: 175px;
+	left: 0px;
+	top: 528px;
+	overflow: visible;
+}
+#Rectangle_120_m {
+	fill: url(#Rectangle_120_m);
+}
+.Rectangle_120_m {
+	position: absolute;
+	overflow: visible;
+	width: 375px;
+	height: 175px;
+	left: 0px;
+	top: 0px;
+}
+#itemTeeImg {
+	position: absolute;
+	width: 184px;
+	height: 110px;
+	left: 12px;
+	top: 32px;
+	overflow: visible;
+}
+#Group_127 {
+	position: absolute;
+	width: 128px;
+	height: 94px;
+	left: 217px;
+	top: 39px;
+	overflow: visible;
+}
+#itemTeeName {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 129px;
+	white-space: nowrap;
+	line-height: 25px;
+	margin-top: -4.5px;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+}
+#teePrice {
+	left: 0px;
+	top: 68px;
+	position: absolute;
+	overflow: visible;
+	width: 67px;
+	white-space: nowrap;
+	line-height: 26px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.08px;
+}
+#itemHoodie {
+	position: absolute;
+	width: 375px;
+	height: 175px;
+	left: 0px;
+	top: 352px;
+	overflow: visible;
+}
+#Rectangle_120_t {
+	fill: url(#Rectangle_120_t);
+}
+.Rectangle_120_t {
+	position: absolute;
+	overflow: visible;
+	width: 375px;
+	height: 175px;
+	left: 0px;
+	top: 0px;
+}
+#itemHoodieImg {
+	position: absolute;
+	width: 184px;
+	height: 110px;
+	left: 12px;
+	top: 32px;
+	overflow: visible;
+}
+#Group_127_v {
+	position: absolute;
+	width: 139px;
+	height: 94px;
+	left: 217px;
+	top: 39px;
+	overflow: visible;
+}
+#itemHoodieName {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 140px;
+	white-space: nowrap;
+	line-height: 25px;
+	margin-top: -4.5px;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+}
+#hoodiePrice {
+	left: 0px;
+	top: 68px;
+	position: absolute;
+	overflow: visible;
+	width: 97px;
+	white-space: nowrap;
+	line-height: 26px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.08px;
+}
+#itemPants {
+	position: absolute;
+	width: 375px;
+	height: 175px;
+	left: 0px;
+	top: 176px;
+	overflow: visible;
+}
+#Rectangle_120_ {
+	fill: url(#Rectangle_120_);
+}
+.Rectangle_120_ {
+	position: absolute;
+	overflow: visible;
+	width: 375px;
+	height: 175px;
+	left: 0px;
+	top: 0px;
+}
+#itemPantsImg {
+	position: absolute;
+	width: 184px;
+	height: 110px;
+	left: 12px;
+	top: 32px;
+	overflow: visible;
+}
+#Group_127_ {
+	position: absolute;
+	width: 128px;
+	height: 94px;
+	left: 217px;
+	top: 39px;
+	overflow: visible;
+}
+#itemPantsName {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 129px;
+	white-space: nowrap;
+	line-height: 25px;
+	margin-top: -4.5px;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+}
+#pantsPrice {
+	left: 0px;
+	top: 68px;
+	position: absolute;
+	overflow: visible;
+	width: 88px;
+	white-space: nowrap;
+	line-height: 26px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.08px;
+}
+#itemSweater {
+	position: absolute;
+	width: 375px;
+	height: 175px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	outline: 1px dashed red;
+}
+#Rectangle_120_bb {
+	fill: url(#Rectangle_120_bb);
+}
+.Rectangle_120_bb {
+	position: absolute;
+	overflow: visible;
+	width: 375px;
+	height: 175px;
+	left: 0px;
+	top: 0px;
+}
+#itemSweaterImg {
+	position: absolute;
+	width: 184px;
+	height: 110px;
+	left: 12px;
+	top: 32px;
+	overflow: visible;
+}
+#Group_127_ba {
+	position: absolute;
+	width: 148px;
+	height: 94px;
+	left: 217px;
+	top: 39px;
+	overflow: visible;
+}
+#itemSweaterName {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 149px;
+	white-space: nowrap;
+	line-height: 25px;
+	margin-top: -4.5px;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+}
+#sweaterPrice {
+	left: 0px;
+	top: 68px;
+	position: absolute;
+	overflow: visible;
+	width: 106px;
+	white-space: nowrap;
+	line-height: 26px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.08px;
+}
+#header {
+	position: absolute;
+	width: 375px;
+	height: 80px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_102 {
+	filter: blur(0px);
+	fill: rgba(206,43,43,1);
+}
+.Rectangle_102 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.071));
+	position: absolute;
+	overflow: visible;
+	width: 393px;
+	height: 98px;
+	left: 0px;
+	top: 0px;
+}
+#shopping-cart {
+	position: absolute;
+	width: 31.705px;
+	height: 30.264px;
+	left: 309.013px;
+	top: 25px;
+	overflow: visible;
+	transition: all 0.30000001192092896s ease-out;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: cart.html;
+	cursor: pointer;
+}
+#Ellipse_38 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1.2000000476837158px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ellipse_38 {
+	position: absolute;
+	overflow: visible;
+	width: 2.702px;
+	height: 2.702px;
+	left: 10.571px;
+	top: 28.762px;
+}
+#Ellipse_39 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1.2000000476837158px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ellipse_39 {
+	position: absolute;
+	overflow: visible;
+	width: 2.702px;
+	height: 2.702px;
+	left: 28.701px;
+	top: 28.762px;
+}
+#Path_3 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1.2000000476837158px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_3 {
+	overflow: visible;
+	position: absolute;
+	width: 32.905px;
+	height: 28.461px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Clothing_Store {
+	left: 32px;
+	top: 29px;
+	position: absolute;
+	overflow: visible;
+	width: 113px;
+	white-space: nowrap;
+	line-height: 25px;
+	margin-top: -4.5px;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+}
